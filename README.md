@@ -1,1 +1,29 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=22871646&assignment_repo_type=AssignmentRepo)
+## 조작 방법
+
+| 조작                     | 설명                             |
+| ---------------------- | ------------------------------ |
+| **마우스 클릭**             | 구역(District) 노드를 선택합니다.        |
+| **Priority Slider 조절** | 선택한 구역의 물 분배 우선순위를 조정합니다.      |
+| **Next Turn 버튼 클릭**    | 다음 턴으로 진행하며 물 공급 시뮬레이션이 실행됩니다. |
+| **Event Panel 확인**     | 현재 발생한 이벤트와 효과를 확인할 수 있습니다.    |
+
+---
+
+### 게임 플레이 흐름
+
+1. **구역 노드를 클릭**하여 정보를 확인합니다.
+2. **Priority Slider**를 조정하여 물 분배 우선순위를 설정합니다.
+3. **Next Turn 버튼**을 눌러 시뮬레이션을 진행합니다.
+4. **이벤트 발생 시 UI 패널**을 통해 효과를 확인하고 대응합니다.
+
+---
+
+### 노드 상태 표시
+
+| 색상    | 의미              |
+| ----- | --------------- |
+| 🟢 초록 | 공급률 95% 이상 (정상) |
+| 🟡 노랑 | 공급률 80~95% (주의) |
+| 🔴 빨강 | 공급률 80% 이하 (부족) |
+
+---
